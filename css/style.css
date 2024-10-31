@@ -1,0 +1,53 @@
+/* Widget */
+
+.rcwidget {
+	margin: 0;
+}
+
+.rcsuccess, .rcerror{
+	font-variant: small-caps;
+	font-weight: bolder;
+	letter-spacing:1pt;
+	word-spacing:2pt;
+	font-size:15px;
+	text-align:left;
+	line-height:1;
+	display: inline;
+}
+
+.rcsuccess {
+	color: rgba(133,211,12,1);
+	text-shadow:0px 0px 5px rgba(133,211,12,1);
+}
+
+.rcerror {
+	color: #D10C0C;
+	text-shadow:0px 0px 5px rgba(209,12,12,1);
+}
+
+.rcstatus h4, .rconplayer h4{
+	font-weight: bolder;
+	text-decoration: underline;
+	display: inline;
+	margin-right: 10px;
+}
+
+.rcwidget p{
+	display: inline;
+}
+
+.rconplayer img{
+	border-radius: 3px 3px 3px 3px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+/*Back Office*/
+
+.help-widget {
+	font-size: 10px;
+	color: #666666;
+	border-radius: 5px;
+	border: 1px dashed #CCCCCC;
+	margin: 5px;
+	padding: 5px;
+}
